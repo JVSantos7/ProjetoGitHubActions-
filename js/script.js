@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // eslint-disable-next-line no-undef
   // eslint-disable-next-line no-console
-  console.log("Aplicação inicializada");
+  //console.log("Aplicação inicializada");
 
   const formularioContato = document.getElementById("formulario-contato");
   if (formularioContato) {
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // eslint-disable-next-line no-undef
       // eslint-disable-next-line no-console
-      console.log("Formulário enviado:", { nome, email, mensagem });
+      //console.log("Formulário enviado:", { nome, email, mensagem });
       window.alert("Mensagem enviada com sucesso! Obrigado pelo contato.");
 
       formularioContato.reset();
