@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto GitFlow</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Projeto de Demonstração GitFlow</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#recursos">Recursos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre">
+        <h2>Sobre o Projeto</h2>
+        <p>
+          Este é um projeto de demonstração para apresentar o uso do GitFlow e
+          GitHub Actions.
+        </p>
+        <p>
+          O GitFlow é um modelo de ramificação para Git que facilita o
+          desenvolvimento paralelo e a colaboração em equipe.
+        </p>
+      </section>
+
+      <section id="recursos">
+        <h2>Recursos Implementados</h2>
+        <ul id="recursos-lista">
+          <li>Estrutura básica HTML, CSS e JS</li>
+          <li>Integração com GitHub</li>
+          <li>Pipeline CI/CD com GitHub Actions</li>
+        </ul>
+      </section>
+
+      <section id="contato">
+        <h2>Contato</h2>
+        <form id="formulario-contato">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
