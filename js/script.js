@@ -1,6 +1,6 @@
-
+// Esperar o DOM carregar completamente
+// eslint-disable-next-line no-console
 document.addEventListener("DOMContentLoaded", function () {
-
   console.log("Aplicação inicializada");
 
   const formularioContato = document.getElementById("formulario-contato");
@@ -13,13 +13,14 @@ document.addEventListener("DOMContentLoaded", function () {
       const mensagem = document.getElementById("mensagem").value;
 
       if (!nome || !email || !mensagem) {
-
+        // eslint-disable-next-line no-alert
         alert("Por favor, preencha todos os campos!");
         return;
       }
 
-    
+      // eslint-disable-next-line no-console
       console.log("Formulário enviado:", { nome, email, mensagem });
+      // eslint-disable-next-line no-alert
       alert("Mensagem enviada com sucesso! Obrigado pelo contato.");
 
       formularioContato.reset();
