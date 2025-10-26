@@ -1,5 +1,6 @@
 // Esperar o DOM carregar completamente
 document.addEventListener("DOMContentLoaded", function () {
+  // eslint-disable-next-line no-undef
   // eslint-disable-next-line no-console
   console.log("Aplicação inicializada");
 
@@ -17,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
 
+      // eslint-disable-next-line no-undef
       // eslint-disable-next-line no-console
       console.log("Formulário enviado:", { nome, email, mensagem });
       window.alert("Mensagem enviada com sucesso! Obrigado pelo contato.");
