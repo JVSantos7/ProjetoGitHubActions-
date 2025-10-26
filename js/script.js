@@ -1,5 +1,6 @@
-// Esperar o DOM carregar completamente
+
 document.addEventListener("DOMContentLoaded", function () {
+
   console.log("Aplicação inicializada");
 
   const formularioContato = document.getElementById("formulario-contato");
@@ -12,10 +13,12 @@ document.addEventListener("DOMContentLoaded", function () {
       const mensagem = document.getElementById("mensagem").value;
 
       if (!nome || !email || !mensagem) {
+
         alert("Por favor, preencha todos os campos!");
         return;
       }
 
+    
       console.log("Formulário enviado:", { nome, email, mensagem });
       alert("Mensagem enviada com sucesso! Obrigado pelo contato.");
 
